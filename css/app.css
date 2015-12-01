@@ -1,0 +1,34 @@
+h2{
+	font-family: Georgia, Serif;
+}
+.snapshot{
+	box-shadow: 0px 0px 12px #CECECE;
+	display: inline-block;
+	margin-right: 20px;
+	max-width: 450px;
+	width: 100%;
+}
+.snapshot ul{
+	list-style:none;
+	overflow-x: hidden;
+	overflow-y: auto;
+    height: 200px;
+    padding-left:0;
+}
+.snapshot li{
+	border-bottom: 1px solid #D3D3D3;	
+}
+.snapshot span{
+	float: right;
+}
+.snapshot b{ 
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #BDBDBD;
+	color: #5C5C5C;
+	margin-right: 3px;
+	padding: 3px;
+}
+.remove{
+	float: right;
+}
