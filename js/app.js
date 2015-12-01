@@ -43,7 +43,7 @@ $(document).ready(function() {
 						content = "<div class='panel panel-default snapshot'> \
 						<div class='panel-heading'> \
 							<button class='btn btn-default remove'>X</button> \
-							<h4>"+(dataQuotes[key].Name)+"</h4>\
+							<h4>"+dataQuotes[key].Name+" ("+dataQuotes[key].ChangeinPercent+")</h4>\
 							Symbol: <b>"+(dataQuotes[key].symbol).toUpperCase()+"</b> \
 							Price: <b>"+dataQuotes[key].LastTradePriceOnly+"</b> \
 							Volume: <b>"+dataQuotes[key].Volume+"</b> \
